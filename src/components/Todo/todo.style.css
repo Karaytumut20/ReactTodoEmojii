@@ -1,0 +1,66 @@
+/* todo.style.css */
+
+.emoji-search-container {
+  margin-left: 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 100px;
+}
+
+.emoji-search-container h2 {
+  font-size: 24px;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input-container > div {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.search-input-container input {
+  font-size: 16px;
+  padding: 8px;
+  width: 100%;
+}
+
+.search-input-container > div:last-child {
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.emoji-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 0;
+}
+
+.emoji-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy-button {
+  display: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #cecece;
+}
+
+.emoji-item:hover .copy-button {
+  display: block;
+}
+
+.divider {
+  margin-left: 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
